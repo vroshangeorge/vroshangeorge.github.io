@@ -119,7 +119,7 @@ border-right:0
 .s012 form .inner-form2 .input-field.fifth-wrap .btn-search{
 height:70px;
 width:100%;
-background:#b78a62;
+background:#0e6ab0;
 white-space:nowrap;
 border-radius:.5px;
 font-size:20px;
@@ -131,7 +131,7 @@ font-weight:400;
 font-family:poppins,sans-serif
 }
 .s012 form .inner-form2 .input-field.fifth-wrap .btn-search:hover{
-background:#af7d51
+background:#319def;
 }
 
 
@@ -448,7 +448,7 @@ border-bottom: 1.5px solid #ddd !important;
 
   .get-started-btn {
     margin-left: 25px;
-    background: #009961;
+    background: #0e6ab0;
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px 9px 25px;
