@@ -168,7 +168,7 @@ padding: 10px;
 width: 200px; */
 }
 
-@media screen and (min-width:377px) and (max-width:416px){
+@media  (min-width:377px) and (max-width:416px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
@@ -216,7 +216,7 @@ width: 200px; */
 
 
 
-@media screen and (max-width:376px){
+@media  (max-width:376px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
@@ -265,7 +265,7 @@ width: 200px; */
 
 
 
-@media screen and (max-width:1048px)and (min-width:993px){
+@media  (max-width:1048px)and (min-width:993px){
 
 .s012 form .inner-form2 .input-field.second-wrap,.s012 form .inner-form2 .input-field.third-wrap{
  
@@ -292,7 +292,7 @@ max-width: 250px !important;
 } 
 
 
-@media screen and (min-width:1049px){
+@media  (min-width:1049px){
 
 .s012 form .inner-form2 .input-field.second-wrap,.s012 form .inner-form2 .input-field.third-wrap{
  
@@ -319,7 +319,7 @@ max-width: 290px !important;
 } 
 
 
-@media screen and (max-width:992px)and (min-width:601px){
+@media  (max-width:992px)and (min-width:601px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
@@ -355,7 +355,7 @@ max-width: 290px !important;
 }
 
 
-@media screen and (max-width:600px)and (min-width:417px){
+@media  (max-width:600px)and (min-width:417px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
@@ -403,7 +403,7 @@ width:calc(50% - 7.5px)!important;
 
 
 /* 
-  @media screen and (max-width:1024px){ */
+  @media  (max-width:1024px){ */
   .choices{
     height:70px !important;
   }
@@ -439,7 +439,7 @@ border-bottom: 1.5px solid #ddd !important;
   /* }  */
 
 
-  @media screen and (max-width:350px){
+  @media  (max-width:350px){
   .choices__item {
     padding: 10px 50px 10px 45px !important;
 }
@@ -458,7 +458,7 @@ border-bottom: 1.5px solid #ddd !important;
     display: inline-block;
 }
 
-@media screen and (max-width:880px){
+@media  (max-width:880px){
 .get-started-btn{
   display: none !important;
 }
