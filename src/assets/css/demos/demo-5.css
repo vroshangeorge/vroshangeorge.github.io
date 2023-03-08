@@ -168,7 +168,7 @@ padding: 10px;
 width: 200px; */
 }
 
-@media  (min-width:377px) and (max-width:416px){
+@media  (min-width:377px) and (max-width:460px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
@@ -355,7 +355,7 @@ max-width: 290px !important;
 }
 
 
-@media  (max-width:600px)and (min-width:417px){
+@media  (max-width:600px)and (min-width:461px){
 .s012 form legend{
     font-size:50px;
     text-align:center;
