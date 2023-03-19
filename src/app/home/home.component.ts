@@ -44,9 +44,20 @@ selectedCar = new FormControl('');
 
 
     
+    // const elements = document.querySelectorAll('.data-trigger-choice');
+    // //const choices = new Choices(element);
+    // elements.forEach((element: any) => {
+    //     const choices = new Choices(element);
+    // });
 
-debugger
-const choices = new Choices('[data-trigger]', {searchPlaceholderValue:"Enter a postal code"});
+    const element1 = document.querySelector('.data-trigger-choice1');
+        const choices1 = new Choices(element1 as any , {placeholder:true, placeholderValue:'Choose a province', shouldSort: false});
+    const element2 = document.querySelector('.data-trigger-choice2');
+        const choices2 = new Choices(element2 as any , {placeholder:true, placeholderValue:'Choose a city', shouldSort: false});
+        const element3 = document.querySelector('.data-trigger-choice3');
+        const choices3 = new Choices(element3 as any , {placeholder:true, placeholderValue:'Enter  postal code', shouldSort: false});
+
+// const choices = new Choices('[data-trigger]', {});
 }
 
 @HostListener('window:resize', ['$event'])
@@ -63,7 +74,7 @@ onOrientationChange(event:any ) {
   this.getScreenWidth = window.innerWidth;
   this.getScreenHeight = window.innerHeight;
 
-debugger
+
 if(window.orientation == 90  && window.innerWidth> window.innerHeight){
 console.log("hi")
 }

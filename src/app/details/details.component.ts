@@ -45,7 +45,6 @@ selectedCar = new FormControl('');
 
     
 
-debugger
 const choices = new Choices('[data-trigger]', {searchPlaceholderValue:"Enter a postal code"});
 }
 
@@ -63,7 +62,6 @@ onOrientationChange(event:any ) {
   this.getScreenWidth = window.innerWidth;
   this.getScreenHeight = window.innerHeight;
 
-debugger
 if(window.orientation == 90  && window.innerWidth> window.innerHeight){
 console.log("hi")
 }

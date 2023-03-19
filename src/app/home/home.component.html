@@ -26,18 +26,18 @@
 
                  
 
-                  <a href="wishlist.html" class="wishlist-link">
+                  <!-- <a href="wishlist.html" class="wishlist-link">
                       <i class="icon-heart-o"></i>
-                  </a>
+                  </a> -->
 
                   <div class="dropdown cart-dropdown">
                       <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
                           aria-expanded="false" data-display="static">
-                          <i class="icon-shopping-cart"></i>
+                          <i class="icon-heart-o"></i>
                           <span class="cart-count">2</span>
                       </a>
 
-                      <!-- <div class="dropdown-menu dropdown-menu-right">
+                      <div class="dropdown-menu dropdown-menu-right">
                           <div class="dropdown-cart-products">
                               <div class="product">
                                   <div class="product-cart-details">
@@ -91,7 +91,7 @@
                               <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i
                                       class="icon-long-arrow-right"></i></a>
                           </div>
-                      </div> -->
+                      </div> 
                   </div>
 
  <nav class="main-nav">
@@ -165,8 +165,23 @@
                                       bindValue="id" 
                                       [formControl]="selectedCar"></ng-select> -->
 
-                                      <input class="datepicker flatpickr-input" id="depart" type="text"
-                                          placeholder="29 Aug 2018" readonly="readonly">
+                                      <select data-trigger="" class="data-trigger-choice1" name="choices-single-defaul"  placeholder="Enter a province name">
+                                        <option>Choose a province</option>
+                                        <option>AB</option>
+                                        <option>BC</option>
+                                        <option>MB</option>
+                                        <option>NB</option>
+                                        <option>NL</option>
+                                        <option>NS</option>
+                                        <option>ON</option>
+                                        <option>PE</option>
+                                        <option>QC</option>
+                                        <option>SK</option>
+                                        <option>--</option>
+                                        <option>NT</option>
+                                        <option>NU</option>
+                                        <option>YT</option>
+                                    </select>
                                   </div>
                                   <div class="input-field third-wrap">
                                       <div class="icon-wrap">
@@ -177,8 +192,11 @@
                                               </path>
                                           </svg>
                                       </div>
-                                      <input class="datepicker flatpickr-input" id="return" type="text"
-                                          placeholder="30 Aug 2018" readonly="readonly">
+                                      <select data-trigger="" name="choices-single-defaul" class="data-trigger-choice2"  placeholder="Enter a city name.">
+                                        <option>Choose a city</option>
+                                        <option>Alberta</option>
+                                        <option>British Columbia</option>
+                                    </select>
                                   </div>
                                   <div class="input-field fouth-wrap">
                                       <div class="icon-wrap">
@@ -189,11 +207,9 @@
                                               </path>
                                           </svg>
                                       </div>
-                                      <select data-trigger="" name="choices-single-defaul"  placeholder="Enter a postal code.">
-                                          <option>2 Adults</option>
-                                          <option>3 Adults</option>
-                                          <option>4 Adults</option>
-                                          <option>5 Adults</option>
+                                      <select data-trigger="" name="choices-single-defaul"  class="data-trigger-choice3" placeholder="Enter a postal code">
+                                        <option>Enter  postal code</option>  
+                                        
                                       </select>
                                       
                                   </div>
